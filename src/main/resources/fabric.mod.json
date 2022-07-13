@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "openjomputers",
+  "version": "${version}",
+
+  "name": "OpenJomputers",
+  "description": "This mod adds in OpenComputers style computers that run Java rather then Lua",
+  "authors": [
+    "Stone"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "GPL-3",
+  "icon": "assets/openjomputers/Oranges_and_orange_juice.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "stone.Main"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "ImmersiveRailroading": "*"
+  }
+}
