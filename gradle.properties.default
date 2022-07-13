@@ -1,6 +1,7 @@
 # Done to increase the memory available to gradle.
 org.gradle.jvmargs=-Xmx1G
 org.gradle.java.home= /path to your java 8 install
+#once you've added the path rename this file to "gradle.properties"
 
 # Fabric Properties
 	# check these on https://fabricmc.net/versions.html
