@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "stone.Main"
+      "stone.openjomputers.Main"
     ]
   },
   "mixins": [
